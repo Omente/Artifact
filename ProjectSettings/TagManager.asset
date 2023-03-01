@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Bush
+  - Artifact
+  - Wolf
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Bush
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Ground
+    uniqueID: 2154641739
+    locked: 0
+  - name: Bush
+    uniqueID: 2691290311
+    locked: 0
+  - name: Artifact
+    uniqueID: 2421702549
+    locked: 0
+  - name: Wolf
+    uniqueID: 3576417135
+    locked: 0
+  - name: Player
+    uniqueID: 3789359123
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 439571521
+    locked: 0

@@ -1,0 +1,1 @@
+public enum BushVariant { Green, Cyan, Yellow }
