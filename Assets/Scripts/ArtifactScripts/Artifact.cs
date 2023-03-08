@@ -13,6 +13,8 @@ public class Artifact : MonoBehaviour
     private float bleedTimer;
     private AudioSource audioSource;
     private PlayerBackpack playerBackpack;
+    private bool isDead = false;
+    public bool IsDead { get { return isDead; } }
 
     private void Awake()
     {
@@ -45,7 +47,8 @@ public class Artifact : MonoBehaviour
             health = 0;
 
             //Show game over UI
-            Destroy(gameObject);
+            isDead = true;
+            gameObject.SetActive(false);
         }
     }
 

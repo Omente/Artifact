@@ -10,6 +10,7 @@ public class TimeManager : MonoBehaviour
 
     private bool gameOver = false;
     private float timeToWin = 300f;
+    public float TimeToWin { get { return timeToWin;} }
     private GameObject artifact;
     private StringBuilder stringBuilder;
 

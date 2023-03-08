@@ -35,9 +35,16 @@ public class WolfAI : MonoBehaviour
         {
             isAttacking = false;
         }
+        
 
-        artifact = GameObject.FindWithTag("Artifact").GetComponent<Artifact>();
-
+        try
+        {
+            artifact = GameObject.FindWithTag("Artifact").GetComponent<Artifact>();
+        }
+        catch(NullReferenceException nl)
+        {
+            artifact = null;
+        }
     }
 
     private void Update()

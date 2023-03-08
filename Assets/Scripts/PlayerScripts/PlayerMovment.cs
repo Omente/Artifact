@@ -61,4 +61,12 @@ public class PlayerMovment : MonoBehaviour
         isHarvesting = true;
         harvestTimer = Time.time + time;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "MapEnd")
+        {
+            moveVector = -moveVector;
+        }
+    }
 }
